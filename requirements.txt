@@ -1,0 +1,8 @@
+httpx[http2,brotli]  # Async HTTP client with HTTP/2 and brotli support
+beautifulsoup4
+pyyaml
+python-dotenv
+loguru             # Or standard logging, Loguru is nice for async/color
+pydantic           # For configuration validation (optional but recommended)
+# Add CAPTCHA service client library if available, e.g., python-2captcha-client
+# Add proxy provider library if needed

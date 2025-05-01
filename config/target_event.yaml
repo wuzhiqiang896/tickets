@@ -1,0 +1,14 @@
+# --- Specific Event Details ---
+target_event:
+  performance_id: "211062" # Example ID from original script
+  language_code: "EN"
+  # target_date: "20240820" # Optional: If needed for specific API calls
+  # target_schedule_id: "1234567" # CRITICAL: Often needed, find this via browser dev tools
+  num_tickets: 1
+  seat_selection_strategy: "manual" # Choose 'api', 'zone', or 'manual'
+  # Only provide prefs relevant to the chosen strategy:
+  preferred_seat_ids: ["R-101", "R-102"] # Example for 'api' or 'manual'
+  # preferred_zone_ids: ["ZoneA_VIP", "ZoneB"] # Example for 'zone'
+
+time:
+  sell_time_str: "2024-08-20 20:00:00" # The actual sale time in Asia/Seoul

@@ -1,0 +1,16 @@
+network:
+  base_url: "https://tkglobal.melon.com"
+  request_timeout: 15.0
+  retry_attempts: 3
+  retry_delay_seconds: 1.0
+  # User-Agent can be defined here or dynamically rotated later
+
+time:
+  timezone: "Asia/Seoul"
+  wait_buffer_seconds: 0.1 # Start just before
+
+captcha:
+  service: "2captcha" # Or your preferred service
+
+proxy:
+  enabled: true
