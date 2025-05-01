@@ -91,6 +91,7 @@ class MelonClient:
               # Return None or re-raise specific errors from solver if needed
               raise exceptions.CaptchaError(f"CAPTCHA solving failed: {e}") from e # Re-raise for now
 
+
     async def select_seats(self) -> SeatSelectionResult:
          # ... (Implementation as before, ensure SeatSelectionError raised on fail) ...
          if not result or not result.success:
